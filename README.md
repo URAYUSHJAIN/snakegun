@@ -29,7 +29,7 @@ Snake-Water-Gun is a fun, interactive game built with Streamlit where you play a
 
 ## How to Run
 ```bash
-streamlit run snake_water_gun.py
+  streamlit run snake_water_gun.py
 ```
 
 ## How to Play
@@ -40,6 +40,9 @@ streamlit run snake_water_gun.py
 
 ## Author
 Ayush Jain
+
+## Contributor
+[Granth Agarwal](https://github.com/hey-granth/) (Check out the profile for more stuff!😉)
 
 ## License
 This project is open-source. Feel free to modify and distribute.
