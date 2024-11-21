@@ -11,12 +11,14 @@ def play_game(user_choice):
 
     if user_choice == computer_choice:
         return f"You chose {user_display}, Computer chose {computer_display}. It's a draw!"
+
     elif (user_choice == 1 and computer_choice == -1) or \
          (user_choice == -1 and computer_choice == 0) or \
          (user_choice == 0 and computer_choice == 1):
         return f"You chose {user_display}, Computer chose {computer_display}. 🎉 You win!"
-    else:
-        return f"You chose {user_display}, Computer chose {computer_display}. 😔 You lose!"
+
+    return f"You chose {user_display}, Computer chose {computer_display}. 😔 You lose!"
+
 
 # Main function for the Streamlit UI
 def main():
@@ -57,7 +59,7 @@ def main():
     st.markdown("""
     <hr>
     <div style="text-align: center; font-size: 14px; color: #888;">
-        Created with ❤️ by- Ayush jain
+        Created with ❤️ by Ayush Jain
     </div>
     """, unsafe_allow_html=True)
 
