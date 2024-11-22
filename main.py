@@ -57,7 +57,7 @@ def main():
     st.markdown("""
     <hr>
     <div style="text-align: center; font-size: 14px; color: #888;">
-        Created with ❤️ using Ayush jain
+        Created with ❤️ Ayush jain
     </div>
     """, unsafe_allow_html=True)
 
